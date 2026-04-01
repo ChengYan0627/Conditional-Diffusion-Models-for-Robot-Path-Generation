@@ -12,7 +12,7 @@ This repository frames robotic path planning as a **dense image-to-image generat
 
 ## Visual Comparison: Diffusion vs. A*
 <div align="center">
-  <img src="figures/your_comparison_gif.gif" alt="Kinematic simulation A* vs Diffusion" width="800"/>
+  <img src="comparison_astar_vs_diffusion_smart.gif" alt="Kinematic simulation A* vs Diffusion" width="800"/>
   <p><i>Orange (A*): Risky geometric shortcutting. Red (Diffusion): Safer, centerline-aligned maneuver prioritizing physical clearance.</i></p>
 </div>
 
