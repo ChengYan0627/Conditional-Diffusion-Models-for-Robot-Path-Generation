@@ -12,7 +12,8 @@ This repository frames robotic path planning as a **dense image-to-image generat
 
 ## Visual Comparison: Diffusion vs. A*
 <div align="center">
-  <img src="comparison_astar_vs_diffusion_smart.gif" alt="Kinematic simulation A* vs Diffusion" width="800"/>
+  <img src="comparison_astar_vs_diffusion_smart.gif" alt="Kinematic simulation A* vs Diffusion" width="300"/>
+  <img src="center_wall_astar_vs_diffusion.gif" alt="Kinematic simulation A* vs Diffusion with obstacle" width="300"/>
   <p><i>Orange (A*): Risky geometric shortcutting. Red (Diffusion): Safer, centerline-aligned maneuver prioritizing physical clearance.</i></p>
 </div>
 
@@ -22,3 +23,6 @@ This repository frames robotic path planning as a **dense image-to-image generat
 3. **Trajectory Extraction:** - Connectivity-First Binarization
    - Distance-Field Skeletonization
    - Active Contour (Snake) Refinement
+<div align="center">
+  <img src="unseen_diff_map.png" alt="Kinematic simulation A* vs Diffusion" width="500"/>
+</div>
